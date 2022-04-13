@@ -1,0 +1,239 @@
+.row-general {
+  // padding: 3.125rem;
+  margin-top: 6rem;
+
+  .top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // margin: 0rem;
+    // max-width: 100%;
+
+    .top-text {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .license-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      // width: 50%;
+      height: fit-content;
+
+      .license {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 1px solid #d6d8e7;
+        padding: 1.25rem;
+        gap: 0.75rem;
+        align-items: flex-start;
+        border-radius: 0.5rem;
+
+        .license-img-img {
+          display: flex;
+        }
+
+        .license-img {
+          max-width: 1.5rem;
+          display: none;
+        }
+        .license-texts {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+
+        .license-text {
+          font-weight: 700;
+          font-size: 1.25rem;
+          color: #000000;
+          // max-width: 12rem;
+          margin: 0rem;
+        }
+        .license-text-1 {
+          max-width: 5rem;
+          font-weight: 400;
+          font-size: 0.63rem;
+          color: #000000;
+          margin: 0rem;
+        }
+      }
+    }
+  }
+
+  .texts {
+    margin-bottom: 3.5rem;
+  }
+  .text {
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #041b3a;
+    margin: 0.75rem 0rem;
+    // max-width: 33rem;
+  }
+
+  .text-2 {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #6a6d6e;
+    margin-bottom: 2rem;
+    // max-width: 29rem;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 8rem;
+
+    .phone-img {
+      width: auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    .savings {
+      margin: 0 auto;
+    }
+
+    .wish {
+      display: flex;
+      gap: 1.125rem;
+      align-items: flex-start;
+      .wish-texts {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        .wish-text-1 {
+          margin: 0rem;
+          font-weight: 700;
+          font-size: 1.5rem;
+          color: #041b3a;
+
+          .license-img {
+            max-width: 1.5rem;
+            display: none;
+          }
+
+          .coming-soon {
+            background: #e6effc;
+            border-radius: 0.31rem;
+            color: #005ede;
+            font-weight: 700;
+            font-size: 0.625rem;
+          }
+        }
+
+        .wish-text-2 {
+          margin: 0rem;
+          font-weight: 400;
+          font-size: 1rem;
+          color: #6a6d6e;
+          margin-bottom: 2rem;
+          max-width: 21.74rem;
+        }
+      }
+    }
+
+    .button-class {
+      display: flex;
+
+      .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1.19rem 1.19rem;
+        background: #005ede;
+        box-shadow: 0px 1px 6px rgba(135, 34, 202, 0.02);
+        border-radius: 0.5rem;
+        border: 1px solid transparent;
+
+        width: 14.19rem;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .row-general {
+
+    .text {
+      font-size: 2.1rem;
+    }
+
+    .top {
+      grid-template-columns: 1fr;
+      justify-items: center;
+      text-align: center;
+
+      .top-text {
+        .text {
+          font-size: 2.1rem;
+        }
+      }
+
+      .license-container {
+        .license {
+          .license-text {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    .content {
+      grid-template-columns: 1fr;
+      justify-items: center;
+      gap: 3.5rem;
+
+      .button-class {
+        justify-content: center;
+      }
+
+      .license-img-img {
+        display: none;
+      }
+
+      .savings {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .wish {
+        .wish-texts {
+          .wish-text-1 {
+            font-size: 1.25rem;
+            .license-img {
+              display: flex;
+              display: inline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .row-general {
+
+    .text {
+      font-size: 1.8rem;
+    }
+
+    .top {
+      .top-text {
+        
+      }
+    }
+  }
+}

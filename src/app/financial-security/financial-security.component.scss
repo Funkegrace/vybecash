@@ -1,0 +1,94 @@
+.financial-security {
+  background-image: url(/assets/images/svg-ring-2.svg);
+  background-color: #e6effc;
+  background-repeat: no-repeat;
+//   background-attachment: fixed;
+  background-position: 50% -20%;
+  height: auto;
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5.38rem 0rem;
+    margin-top: 6.25  rem;
+
+    .male-image {
+      max-width: 548px;
+      height: 548px;
+      display: flex;
+      justify-content: center;
+
+      .male-img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    .texts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .text-text {
+        .text-1 {
+          font-weight: 700;
+          font-size: 2.25rem;
+          color: #041b3a;
+        }
+
+        .text-2 {
+          color: #6a6d6e;
+          font-weight: 400;
+          font-size: 1rem;
+        }
+      }
+
+      .google-play-img {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        margin-top: 3.38rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .financial-security {
+    .content {
+      grid-template-columns: 1fr;
+      justify-items: center;
+      text-align: center;
+
+      .texts {
+        .text-text {
+          .text-1 {
+            font-size: 1.88rem;
+          }
+        }
+
+        .google-play-img {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+    .financial-security {
+      .content {
+        
+        
+  
+        .texts {
+          .text-text {
+            .text-1 {
+              font-size: 1.5rem;
+            }
+          }
+
+      }
+    }
+  }
+}

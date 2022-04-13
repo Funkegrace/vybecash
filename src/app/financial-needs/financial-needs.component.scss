@@ -1,0 +1,170 @@
+// .image-content{
+//     background-image: url(/assets/images/female-img.svg);
+//     width: auto;
+//     background-color: #041B3A;
+//     height: 500px;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   position: relative;
+//   background-size: contain;
+
+//   .image-text{
+
+//     .watch{
+
+//     }
+
+//     .text{
+
+//     }
+//   }
+
+//
+
+// .overlay {
+//   min-height: 100vh;
+//   display: -webkit-box;
+//   display: -ms-flexbox;
+//   display: flex;
+//   -webkit-box-align: center;
+//   -ms-flex-align: center;
+//   align-items: center;
+//   -webkit-box-pack: center;
+//   -ms-flex-pack: center;
+//   justify-content: center;
+
+//   p{
+//       color: #FE337A;;
+//       font-weight: 700;
+// font-size: 2.25rem;
+//   }
+
+//   .overlay h2 {
+//     background: #000 none repeat scroll 0 0;
+//     color: tan;
+//     font-weight: 600;
+//     margin: 2rem 3rem 0;
+//     mix-blend-mode: overlay;
+//     padding: 5px 15px;
+//     text-align: center;
+// }
+// }
+
+// .outer-container {
+//     border: 1px dotted black;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+// }
+// .inner-container {
+//     border: 1px solid black;
+//     display: inline-block;
+//     position: relative;
+// }
+// .video-overlay {
+//     position: absolute;
+//     left: 0px;
+//     top: 0px;
+//     font-size: 2.88rem;
+//     color: #FE337A;
+
+// }
+// video {
+//     width: 100%;
+//     height: 100%;
+// }
+
+.outer-container {
+  position: relative;
+  width: 100%;
+  //   height: 55rem;
+  height: auto;
+  margin-top: 9.13rem;
+
+  video {
+    width: 100%;
+    height: auto;
+    border-radius: 0.625rem;
+  }
+
+  .remove-overlay_text {
+    opacity: 0 !important;
+  }
+
+  .remove_play_btn {
+    opacity: 0;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    //  font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    background: #041b3a;
+    opacity: 0.5;
+
+    .watch {
+      font-weight: 700;
+      font-size: 0.75rem;
+      margin-top: 1.5rem;
+    }
+    .text {
+      font-weight: 700;
+      font-size: 2.25rem;
+      max-width: 34.3rem;
+
+      span {
+        color: #fe337a;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .outer-container {
+    .overlay {
+      .text {
+        font-size: 1.9rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .outer-container {
+    .overlay {
+      .watch {
+        margin: 0.5rem 0rem;
+      }
+
+      .text {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+// position: absolute;
+//     top: 0;
+//     /* right: 0; */
+//     /* left: 0; */
+//     /* bottom: 0; */
+//     width: 100%;
+//     height: 100%;
+//     /* border: 3px solid #73AD21; */
+//     background: #fff0;
+//     display: flex;
+//     align-items: center;
+//     /* justify-content: center; */
+//     font-size: 50px;
+//     text-align: center;
+//     color: #ffffff;

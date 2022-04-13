@@ -1,0 +1,90 @@
+.texts {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.text-1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  text-align: center;
+  color: #000000;
+}
+.text-2 {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #6a6d6e;
+  text-align: center;
+  width: 29.06rem;
+  // margin: 0rem;
+  // margin-right: 0rem;
+}
+.three-parts {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+
+  .lets-see{
+    flex: 1 1 0rem;
+    min-width: 300px;
+  }
+
+  .first-text {
+    color: #041b3a;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+
+   
+
+    // font-size: 1.5rem;
+    span {
+      color: #e6effc;
+      font-size: 2.25rem;
+    }
+  }
+
+  .second-text {
+    color: #6a6d6e;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .text-1 {
+    font-size: 2.1rem;
+  }
+
+  .three-parts {
+    .lets-see {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      
+
+      .first-text {
+        font-size: 1.13rem;
+        gap: 2rem;
+
+        span{
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .text-1 {
+    font-size: 1.8rem;
+  }
+
+  .three-parts{
+
+    .second-text{
+      text-align: center;
+    }
+  }
+}

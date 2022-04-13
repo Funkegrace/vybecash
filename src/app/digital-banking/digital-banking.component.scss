@@ -1,0 +1,162 @@
+.texts {
+  margin: 0 auto;
+
+  .text-text{
+    margin-bottom: 3.5rem;
+  }
+  .text {
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #041b3a;
+    margin: 0.75rem 0rem;
+    max-width: 33rem;
+  }
+
+  .text-2 {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #6a6d6e;
+    max-width: 29rem;
+  }
+
+}
+
+.content-container {
+  padding: 3.125rem;
+}
+
+.content {
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8rem;
+
+  .banking {
+    margin: 0 auto;
+  }
+
+  .license-img-img {
+    display: flex;
+  }
+
+  .license-img {
+    max-width: 1.5rem;
+    display: none;
+  }
+
+  .phone-img {
+    width: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .wish {
+    display: flex;
+    gap: 1.125rem;
+    align-items: flex-start;
+    .wish-texts {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      .wish-text-1 {
+        margin: 0rem;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: #041b3a;
+
+        .coming-soon {
+          background: #e6effc;
+          border-radius: 0.31rem;
+          color: #005ede;
+          font-weight: 700;
+          font-size: 0.625rem;
+        }
+      }
+
+      .wish-text-2 {
+        margin: 0rem;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #6a6d6e;
+        margin-bottom: 2rem;
+        max-width: 21.74rem;
+      }
+    }
+  }
+
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.19rem 1.19rem;
+    background: #005ede;
+    box-shadow: 0px 1px 6px rgba(135, 34, 202, 0.02);
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+
+    width: 14.19rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .text {
+      font-size: 2.1rem;
+    }
+  }
+
+  .content {
+    justify-content: center;
+    gap: 3.5rem;
+
+    .wish{
+
+      .wish-texts{
+
+        .wish-text-1{
+          font-size: 1.25rem;
+        }
+      }
+    }
+  }
+  .license-img-img {
+    display: none;
+  }
+
+  // .banking {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   text-align: center;
+  // }
+}
+
+@media screen and (max-width:767.98px) {
+  .texts{
+
+    .text{
+      font-size: 1.8rem;
+    }
+  }
+
+  .content{
+
+    .phone-img{
+      img{
+        width: 100%;
+      }
+    }
+  }
+}

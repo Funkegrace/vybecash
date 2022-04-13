@@ -1,0 +1,91 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.container-all{
+  width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-header {
+  // margin-left: 3.125rem;
+  // padding: 3.125rem;
+  background-image: url(/assets/images/svg-ring.svg);
+  overflow: hidden;
+  //  height: 100vh;
+  width: auto;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  background-position: -90% 63%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 1.875rem;
+
+  
+
+  .roww{
+    display: flex;
+    
+
+    .coll{
+      width: 50%;
+    }
+
+    .female-male-img{
+      width: 50%;
+    }
+  }
+  .header {
+    color: #041b3a;
+    font-weight: 800;
+    font-size: 42px;
+    margin: 1.25rem 0rem;
+    max-width: 33.18rem;
+  }
+  .sub-header {
+    color: #6a6d6e;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin: 3.75rem 0rem;
+    max-width: 25.25rem;
+
+    .p {
+      padding: 0;
+    }
+  }
+
+  .barcode-row {
+    display: flex;
+
+    max-width: 28.875rem;
+  }
+  .barcode-text {
+    max-width: 8.187rem;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #6a6d6e;
+  }
+  .google-play-img {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin: 1.25rem 0;
+  }
+  
+}
+@media (max-width: 991.98px) { 
+  .header{
+    text-align: center;
+    .female-male-img{
+      width: 100%;
+      height: auto;
+    }
+  }
+ }
