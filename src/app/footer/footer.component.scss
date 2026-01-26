@@ -51,6 +51,7 @@
       color: #575a65;
       font-weight: 700;
       font-size: 1rem;
+      text-align: initial;
     }
 
     .flex-2-2 {
@@ -59,6 +60,7 @@
       .social-img {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 0.5rem;
       }
     }
   }
