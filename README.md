@@ -1,6 +1,6 @@
 # Vybecash
 
-You can view this project through the link vybecash-funke.netlify.app
+You can view this project through the link [vybecash-funke.netlify.app] (https://vybecash-funke.netlify.app).
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.0.
 
 ## Development server
