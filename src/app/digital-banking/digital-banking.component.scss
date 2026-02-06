@@ -120,10 +120,13 @@
   .content {
     justify-content: center;
     gap: 3.5rem;
+    margin-top: 1rem;
 
     .wish{
 
       .wish-texts{
+        align-items: flex-start;
+        text-align: initial;
 
         .wish-text-1{
           font-size: 1.25rem;
